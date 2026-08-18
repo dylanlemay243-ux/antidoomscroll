@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Taper</string>
+    <string name="blocker_label">Taper — pause tracked apps</string>
+    <string name="blocker_description">Lets Taper notice when a tracked app comes to the front so it can show your pause or block screen. Taper reads only the package name of the app in front; it does not read screen contents.</string>
+</resources>
