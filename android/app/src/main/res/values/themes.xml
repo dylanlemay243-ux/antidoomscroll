@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Taper" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#F5EAD8</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#EBDDC5</item>
+        <item name="android:windowBackground">#F5EAD8</item>
+    </style>
+</resources>
