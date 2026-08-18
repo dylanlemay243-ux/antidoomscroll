@@ -665,7 +665,9 @@ private fun SettingsTab(activity: MainActivity) {
             Spacer(Modifier.height(4.dp))
             OutlinedButton(
                 onClick = {
-                    val next = wins + (1200..1230)
+                    // listOf() matters: `wins + (1200..1230)` resolves to the
+                    // plus(Iterable) overload and flattens the range into ints.
+                    val next = wins + listOf(1200..1230)
                     wins = next; ctx.windows = next
                 },
                 shape = RoundedCornerShape(999.dp),
